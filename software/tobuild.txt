@@ -3,7 +3,7 @@
 drake/drake
 #jpeg-utils
 #pronto
-#drc_lcmtypes
+drc_lcmtypes
 #ihmc
 #latency
 #drivers

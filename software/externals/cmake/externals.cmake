@@ -11,6 +11,10 @@ if(NOT USE_SYSTEM_LCM)
     )
 endif()
 
+set(bot_core_lcmtypes_url https://github.com/openhumanoids/bot_core_lcmtypes.git)
+set(bot_core_lcmtypes_revision d2617b85674fa83b371a5c57fabdbe468844f15e)
+set(bot_core_lcmtypes_depends ${lcm_proj})
+
 #set(libbot_url https://github.com/openhumanoids/libbot.git)
 #set(libbot_revision 92cf3eaef17659990104da40866c5d466a453b17) # this revision needs a few more fixes
 #set(libbot_revision eb61f9bed5df654ffb0ce47ce44ca3d379a6e6e8)
@@ -253,6 +257,7 @@ set(PointCloudLibraryPlugin_external_args
 
 
 set(externals
+  bot_core_lcmtypes
   Eigen_pod
   ${lcm_proj}
 #  libbot
