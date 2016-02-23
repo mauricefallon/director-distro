@@ -1,0 +1,10 @@
+/share
+/bin
+/lib
+/lib64
+/include
+/matlab
+/drcsim-and-gazebo-builds
+lcmtypes/
+data
+externals.md5
