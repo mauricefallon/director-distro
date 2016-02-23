@@ -268,13 +268,13 @@ set(externals
 #  apriltags
 #  bullet
 #  spotless
-#  swigmake
+  swigmake
 #  iris
 #  pypolyhedron
 #  libnabo
 #  libpointmatcher
 #  hokuyo
-#  cmake_scripts
+  cmake_scripts
   PythonQt
   ctkPythonConsole
   QtPropertyBrowser

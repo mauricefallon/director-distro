@@ -1,0 +1,6 @@
+[submodule "software/director"]
+	path = software/director
+	url = git@github.com:RobotLocomotion/director.git
+[submodule "software/drake"]
+	path = software/drake
+	url = git@github.com:openhumanoids/drake.git

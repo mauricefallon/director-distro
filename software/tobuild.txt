@@ -1,0 +1,15 @@
+# list of subdirectories to build, one one each line.  Empty lines
+# and lines starting with '#' are ignored
+drake/drake
+#jpeg-utils
+#pronto
+#drc_lcmtypes
+#ihmc
+#latency
+#drivers
+#utils
+#perception
+#motion_estimate
+#control
+#atlas-collection
+director/distro/pods/drc
